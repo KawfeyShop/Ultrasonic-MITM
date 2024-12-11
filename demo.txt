@@ -1,0 +1,5 @@
+1. normal.py
+2. sudo iptables –t nat –A PREROUTING –p tcp –s 172.20.10.4 --dport 8000 –d 172.20.10.2 -j DNAT –to-destination 172.20.10.2:8080 
+3. run mal.py
+4. sudo iptables -t nat -D PREROUTING 1
+5. normal.py

@@ -1,3 +1,4 @@
+// Author: Cooper Hettinger
 #include <WiFi.h>
 #include <ArduinoJson.h>
 #include "Arduino_LED_Matrix.h"
